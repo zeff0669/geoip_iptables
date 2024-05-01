@@ -10,3 +10,5 @@ sudo wget -O /usr/local/bin/update-geoip.sh https://github.com/zeff0669/geoip_ip
 sudo chmod +x /usr/local/bin/update-geoip.sh
 /usr/local/bin/update-geoip.sh
 
+sudo -O /usr/local/bin/iptables_br_only.sh wget https://github.com/zeff0669/geoip_iptables/raw/main/iptables_br_only.sh && bash /usr/local/bin/iptables_br_only.sh
+
