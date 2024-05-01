@@ -10,7 +10,7 @@ wget -O /usr/local/bin/update-geoip.sh https://github.com/zeff0669/geoip_iptable
 chmod +x /usr/local/bin/update-geoip.sh
 /usr/local/bin/update-geoip.sh
 
-wget -O /usr/local/bin/iptables_br_only.sh  https://github.com/zeff0669/geoip_iptables/raw/main/iptables_br_only.sh && bash /usr/local/bin/iptables_br_only.sh
+wget -O /usr/local/bin/iptables_br_only.sh  https://github.com/zeff0669/geoip_iptables/raw/main/iptables_br_only.sh && chmod +x /usr/local/bin/iptables_br_only.sh && bash /usr/local/bin/iptables_br_only.sh
 
 if [[ ! -e /etc/rc.local ]]; then
   echo "#!/bin/sh -e\n\nexit 0" >/etc/rc.local
