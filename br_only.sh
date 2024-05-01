@@ -9,7 +9,6 @@ iptables -A INPUT -m geoip --src-cc AI -j DROP &&
 iptables -A INPUT -m geoip --src-cc AL -j DROP &&
 iptables -A INPUT -m geoip --src-cc AM -j DROP &&
 iptables -A INPUT -m geoip --src-cc AO -j DROP &&
-iptables -A INPUT -m geoip --src-cc AP -j DROP &&
 iptables -A INPUT -m geoip --src-cc AQ -j DROP &&
 iptables -A INPUT -m geoip --src-cc AR -j DROP &&
 iptables -A INPUT -m geoip --src-cc AS -j DROP &&
