@@ -1,237 +1,237 @@
 #!/bin/bash
-iptables -A INPUT -m geoip --src-cc A1 -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc A2 -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AQ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AX -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc AZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BB -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BJ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc BZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CV -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc CZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DJ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc DZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc EC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc EE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc EG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ER -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ES -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ET -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc EU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FJ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc FR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GB -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GP -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GQ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc GY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc HK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc HN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc HR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc HT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc HU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ID -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IQ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc IT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc JE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc JM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc JO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc JP -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KP -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc KZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LB -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LV -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc LY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ME -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ML -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MP -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MQ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MV -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MX -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc MZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NP -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc NZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc OM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc PY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc QA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc RE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc RO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc RS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc RU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc RW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SB -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ST -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SV -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc SZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TD -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TH -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TJ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TK -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TL -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TO -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TR -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TV -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TW -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc TZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc UA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc UG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc UM -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc US -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc UY -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc UZ -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VC -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VG -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VI -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VN -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc VU -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc WF -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc WS -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc YE -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc YT -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ZA -p tcp -m multiport --dports 22,222 -j DROP &&
-iptables -A INPUT -m geoip --src-cc ZM -p tcp -m multiport --dports 22,222 -j DROP &&
+iptables -A INPUT -m geoip --src-cc A1 -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc A2 -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AQ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AX -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc AZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BB -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BJ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc BZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CV -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc CZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DJ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc DZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc EC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc EE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc EG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ER -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ES -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ET -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc EU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FJ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc FR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GB -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GP -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GQ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc GY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc HK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc HN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc HR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc HT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc HU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ID -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IQ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc IT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc JE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc JM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc JO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc JP -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KP -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc KZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LB -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LV -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc LY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ME -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ML -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MP -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MQ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MV -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MX -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc MZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NP -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc NZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc OM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc PY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc QA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc RE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc RO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc RS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc RU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc RW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SB -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ST -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SV -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc SZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TD -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TH -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TJ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TK -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TL -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TO -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TR -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TV -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TW -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc TZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc UA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc UG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc UM -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc US -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc UY -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc UZ -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VC -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VG -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VI -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VN -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc VU -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc WF -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc WS -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc YE -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc YT -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ZA -p tcp -m multiport --dports 22,222 -j DROP;
+iptables -A INPUT -m geoip --src-cc ZM -p tcp -m multiport --dports 22,222 -j DROP;
 iptables -A INPUT -m geoip --src-cc ZW -p tcp -m multiport --dports 22,222 -j DROP
